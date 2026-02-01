@@ -1,6 +1,6 @@
 # optimization_cycle
 
-Local pipeline for iterative optimization (preprocessing, training, optimization, and I/O). HPC (qsub/SGE) logic is removed.
+Pipeline for iterative optimization (preprocessing, training, optimization, and I/O).
 
 ## Repository Layout
 
@@ -76,5 +76,4 @@ bash md_simulation/scripts/run_3.sh /path/to/repo_root
 
 ## Notes
 
-- All qsub/SGE-specific logic has been removed.
 - Prepare input data according to your experimental setup.

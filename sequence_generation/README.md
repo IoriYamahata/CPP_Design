@@ -1,6 +1,6 @@
 # sequence_generation
 
-Tools for EvoDiff finetuning, sequence generation, and a minimal CPP classifier.
+Tools for EvoDiff finetuning, sequence generation, and a CPP classifier.
 
 ## Environment
 
@@ -13,7 +13,7 @@ conda activate sequence_generation
 
 - `data/cellppd/` : CPP training sequences (`cpp_data_1.txt`, `cpp_data_2.txt`, `cpp_data_3.txt`)
 - `models/evodiff/` : downloaded pretrained EvoDiff weights (`*.tar`)
-- `models/paper/` : fine-tuned checkpoints used for generation (optional)
+- `models/paper/` : fine-tuned checkpoints for generation (optional)
 - `data/sequences/` : generated sequence CSVs (output)
 - `models/predictor/` : classifier outputs
 
