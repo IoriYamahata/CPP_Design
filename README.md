@@ -16,9 +16,4 @@ A minimal, publication-ready pipeline for iterative optimization (prediction, BO
 Sequence generation and finetuning utilities (EvoDiff) and a minimal CPP classifier.
 
 - Location: `sequence_generation/`
-- Docs: `sequence_generation/README.md` (if present)
-
-## Notes
-
-- Each project is self-contained and should be executed from its own directory.
-- Please see each project’s README for environment setup and usage.
+- Docs: `sequence_generation/README.md` 
